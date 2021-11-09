@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- <suite name="testingSearchJobsByCategory" verbose="1">   -->
+<suite name="testingSearchJobsByCategory" verbose="1" parallel="tests" thread-count="4">
+		
+	<test name="ByEngineeringGuadalajaraTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="expectedMessage" value="Take a look at our job offerings"></parameter>
+		<parameter name="category" value="Engineering"></parameter>
+		<parameter name="location" value="Guadalajara, Jalisco, Mexico"></parameter>
+		<classes>
+			<class name="com.cognizant.careers.tests.SearchingByJobCategoryTest" />
+		</classes>
+	</test>
+		
+	<test name="ByBusinessMexicoCityTest-Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="expectedMessage" value="Take a look at our job offerings"></parameter>
+		<parameter name="category" value="Business Processes"></parameter>
+		<parameter name="location" value="Mexico City, CDMX, Mexico"></parameter>		
+		<classes>
+			<class name="com.cognizant.careers.tests.SearchingByJobCategoryTest" />
+		</classes>
+	</test>	
+		 
+	<test name="ByConsultingMonterreyTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="expectedMessage" value="Take a look at our job offerings"></parameter>
+		<parameter name="category" value="Consulting"></parameter>
+		<parameter name="location" value="Monterrey, Nuevo Leon, Mexico"></parameter>
+		<classes>
+			<class name="com.cognizant.careers.tests.SearchingByJobCategoryTest" />
+		</classes>
+	</test>	
+	
+	<test name="ByTechnologySanLuisTest-Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="expectedMessage" value="Take a look at our job offerings"></parameter>
+		<parameter name="category" value="Technology"></parameter>
+		<parameter name="location" value="San luis potosi, San Luis Potos, Mexico"></parameter>		
+		<classes>
+			<class name="com.cognizant.careers.tests.SearchingByJobCategoryTest" />
+		</classes>
+	</test>	
+ 
+</suite>

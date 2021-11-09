@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 12, Time elapsed: 2.196 s <<< FAILURE! - in TestSuite
+setUp(com.crm.qa.testcases.FlightTestCases)  Time elapsed: 1.462 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 152 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-L2U129KB', ip: '192.168.2.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver
+	at com.crm.qa.testcases.FlightTestCases.setUp(FlightTestCases.java:24)
+
+tearDown(com.crm.qa.testcases.FlightTestCases)  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "com.crm.qa.base.TestBase.driver" is null
+	at com.crm.qa.testcases.FlightTestCases.tearDown(FlightTestCases.java:53)
+

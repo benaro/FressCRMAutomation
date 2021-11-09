@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="0" failed="0" skipped="8">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-03T05:16:56Z" name="RegressionSuite" finished-at="2021-11-03T05:16:56Z" duration-ms="16">
+    <groups>
+      <group name="UI">
+        <method signature="FlightTestCases.TC001_CheckifLogoisPresent()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" name="TC001_CheckifLogoisPresent" class="com.crm.qa.testcases.FlightTestCases"/>
+        <method signature="FlightTestCases.TC003_CheckifLogoisPresent()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" name="TC003_CheckifLogoisPresent" class="com.crm.qa.testcases.FlightTestCases"/>
+        <method signature="SearchFlightTestCases.TC001_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" name="TC001_VerifyHeaderContent" class="com.crm.qa.testcases.SearchFlightTestCases"/>
+        <method signature="SearchFlightTestCases.TC003_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" name="TC003_VerifyHeaderContent" class="com.crm.qa.testcases.SearchFlightTestCases"/>
+        <method signature="SearchFlightTestCases.TC005_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" name="TC005_VerifyHeaderContent" class="com.crm.qa.testcases.SearchFlightTestCases"/>
+      </group> <!-- UI -->
+      <group name="Functionality">
+        <method signature="FlightTestCases.TC002_SelectFlightOption()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" name="TC002_SelectFlightOption" class="com.crm.qa.testcases.FlightTestCases"/>
+      </group> <!-- Functionality -->
+      <group name="Simple">
+        <method signature="FlightTestCases.TC001_CheckifLogoisPresent()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" name="TC001_CheckifLogoisPresent" class="com.crm.qa.testcases.FlightTestCases"/>
+        <method signature="FlightTestCases.TC003_CheckifLogoisPresent()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" name="TC003_CheckifLogoisPresent" class="com.crm.qa.testcases.FlightTestCases"/>
+        <method signature="SearchFlightTestCases.TC001_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" name="TC001_VerifyHeaderContent" class="com.crm.qa.testcases.SearchFlightTestCases"/>
+        <method signature="SearchFlightTestCases.TC003_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" name="TC003_VerifyHeaderContent" class="com.crm.qa.testcases.SearchFlightTestCases"/>
+        <method signature="SearchFlightTestCases.TC005_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" name="TC005_VerifyHeaderContent" class="com.crm.qa.testcases.SearchFlightTestCases"/>
+      </group> <!-- Simple -->
+    </groups>
+    <test started-at="2021-11-03T05:16:56Z" name="Testing" finished-at="2021-11-03T05:16:56Z" duration-ms="16">
+      <class name="com.crm.qa.testcases.SearchFlightTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" started-at="2021-11-02T23:16:56Z" name="setUp" finished-at="2021-11-02T23:16:56Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" started-at="2021-11-02T23:16:56Z" name="TC001_VerifyHeaderContent" finished-at="2021-11-02T23:16:56Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_VerifyHeaderContent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" started-at="2021-11-02T23:16:56Z" name="setUp" finished-at="2021-11-02T23:16:56Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC002_SearchFligh()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" started-at="2021-11-02T23:16:56Z" name="TC002_SearchFligh" finished-at="2021-11-02T23:16:56Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_SearchFligh -->
+        <test-method signature="TC003_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" started-at="2021-11-02T23:16:56Z" name="TC003_VerifyHeaderContent" finished-at="2021-11-02T23:16:56Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_VerifyHeaderContent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" started-at="2021-11-02T23:16:56Z" name="setUp" finished-at="2021-11-02T23:16:56Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" started-at="2021-11-02T23:16:56Z" name="setUp" finished-at="2021-11-02T23:16:56Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC005_VerifyHeaderContent()[pri:0, instance:com.crm.qa.testcases.SearchFlightTestCases@58fdd99]" started-at="2021-11-02T23:16:56Z" name="TC005_VerifyHeaderContent" finished-at="2021-11-02T23:16:56Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_VerifyHeaderContent -->
+      </class> <!-- com.crm.qa.testcases.SearchFlightTestCases -->
+      <class name="com.crm.qa.testcases.FlightTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" started-at="2021-11-02T23:16:55Z" name="setUp" finished-at="2021-11-02T23:16:55Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 152 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-L2U129KB', ip: '192.168.2.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 152 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-L2U129KB', ip: '192.168.2.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.crm.qa.base.TestBase.getDriver(TestBase.java:83)
+	at com.crm.qa.base.TestBase.initializaton(TestBase.java:58)
+	at com.crm.qa.testcases.FlightTestCases.setUp(FlightTestCases.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_CheckifLogoisPresent()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" started-at="2021-11-02T23:16:56Z" name="TC001_CheckifLogoisPresent" finished-at="2021-11-02T23:16:56Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_CheckifLogoisPresent -->
+        <test-method signature="TC002_SelectFlightOption()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" started-at="2021-11-02T23:16:56Z" name="TC002_SelectFlightOption" finished-at="2021-11-02T23:16:56Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_SelectFlightOption -->
+        <test-method signature="TC004_SelectFlightOption()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" started-at="2021-11-02T23:16:56Z" name="TC004_SelectFlightOption" finished-at="2021-11-02T23:16:56Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_SelectFlightOption -->
+        <test-method signature="TC003_CheckifLogoisPresent()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" started-at="2021-11-02T23:16:56Z" name="TC003_CheckifLogoisPresent" finished-at="2021-11-02T23:16:56Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_CheckifLogoisPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.FlightTestCases@64d2d351]" started-at="2021-11-02T23:16:56Z" name="tearDown" finished-at="2021-11-02T23:16:56Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "com.crm.qa.base.TestBase.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "com.crm.qa.base.TestBase.driver" is null
+	at com.crm.qa.base.TestBase.tearDownMain(TestBase.java:101)
+	at com.crm.qa.testcases.FlightTestCases.tearDown(FlightTestCases.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.FlightTestCases -->
+    </test> <!-- Testing -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
