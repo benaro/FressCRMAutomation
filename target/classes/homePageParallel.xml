@@ -1,17 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <!-- <suite name="testingSearchJobsByCategory" verbose="1">   -->
-<suite name="ParallelExecutionExample" verbose="1" parallel="methods" thread-count="4">
+<suite name="ParallelExecutionExample" verbose="1" parallel="tests" thread-count="4">
 
 	<test name="HomePageUIParallelExecution">
 		<parameter name="expectedMessage" value="Take a look at our job offerings"></parameter>
 		<parameter name="category" value="Engineering"></parameter>
 		<parameter name="location" value="Guadalajara, Jalisco, Mexico"></parameter>
-		<groups>	
+		 <groups>	
 				<run>	
    					 <include name="Simple" />	
         		</run>	
-        </groups>		
+        </groups>  		
 		<classes>
 			<class name="com.crm.qa.testcases.SearchingByJobCategoryTest" />
 		</classes>
