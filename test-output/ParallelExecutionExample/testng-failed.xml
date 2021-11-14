@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="4" parallel="tests" name="Failed suite [ParallelExecutionExample]">
-  <parameter name="location" value="Guadalajara, Jalisco, Mexico"/>
-  <parameter name="category" value="Engineering"/>
-  <parameter name="expectedMessage" value="Take a look at our job offerings"/>
-  <test parallel="tests" name="HomePageUIParallelExecution(failed)">
-    <parameter name="location" value="Guadalajara, Jalisco, Mexico"/>
-    <parameter name="category" value="Engineering"/>
-    <parameter name="expectedMessage" value="Take a look at our job offerings"/>
+<suite thread-count="4" parallel="methods" name="Failed suite [ParallelExecutionExample]">
+  <test parallel="methods" name="HomePageUIParallelExecution(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.SearchingByJobCategoryTest">
+      <class name="com.crm.qa.testcases.HomePageTest">
         <methods>
+          <include name="TC01_VerifyLogoisDisplayed"/>
+          <include name="TC03_VerifyIndustryExperienceContainerDisplayed"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="TC001_VerifyHeaderContent"/>
-          <include name="TC003"/>
-          <include name="TC002_JobsBrowsingHistoryContent"/>
-          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.SearchingByJobCategoryTest -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- HomePageUIParallelExecution(failed) -->
 </suite> <!-- Failed suite [ParallelExecutionExample] -->

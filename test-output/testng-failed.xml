@@ -3,13 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.SearchingByJobCategoryTest">
+      <class name="com.crm.qa.testcases.HomePageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="TC001_VerifyHeaderContent"/>
-          <include name="beforeClass"/>
+          <include name="TC01_VerifyLogoisDisplayed"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.SearchingByJobCategoryTest -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

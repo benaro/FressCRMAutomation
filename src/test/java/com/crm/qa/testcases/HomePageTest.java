@@ -2,6 +2,7 @@ package com.crm.qa.testcases;
 
 import org.testng.Assert;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -20,34 +21,34 @@ public class HomePageTest extends TestBase {
 		super();
 	}
 	
-	@BeforeMethod(alwaysRun = true)
-	public void setUp(Method method) {
+	/*
+	 * @BeforeMethod(alwaysRun = true) public void setUp(Method method) {
+	 * initializaton(); homePage = new HomePage(); Long id=
+	 * Thread.currentThread().getId(); System.out.println("Test name: " +
+	 * method.getName() + " Thread is " + id); }
+	 * 
+	 * @AfterMethod(alwaysRun = true) public void tearDown() { //FormatResult();
+	 * long id = Thread.currentThread().getId();
+	 * System.out.println("After test-class. Thread id is: " + id); tearDownMain();
+	 * }
+	 */
+	
+	//Explicacion de dispositiva @Test
+	@Test()
+	public void TC01_VerifyLogoisDisplayed() {
 		initializaton();
 		homePage = new HomePage();
-		Long id= Thread.currentThread().getId();
-		System.out.println("Test name: " + method.getName() + " Thread is " + id);  
-	}
-	
-	@AfterSuite(alwaysRun = true)
-	public void tearDown() {
-		//FormatResult();
-		long id = Thread.currentThread().getId();
-        System.out.println("After test-class. Thread id is: " + id);
+		Assert.assertTrue(homePage.LogoDisplayed(), "The element is not present");
 		tearDownMain();
 	}
-	
-	@Test(groups = { "Simple", "UI" })
-	public void TC01_VerifyLogoisDisplayed() {
-		Assert.assertTrue(homePage.LogoDisplayed(), "The element is not present");
-	}
 
-	@Test(groups = { "Simple", "UI" })
-	public void TC01_VerifyContactUsCointainerisDisplayed() {
+	@Test()
+	public void TC02_VerifyContactUsCointainerisDisplayed() {
 		Assert.assertTrue(homePage.ContactUsCointainerDisplayed(), "The element is not present");
 	}
 
-	@Test(groups = { "Simple", "UI" })
-	public void TC01_VerifyIndustryExperienceContainerDisplayed() {
+	@Test()
+	public void TC03_VerifyIndustryExperienceContainerDisplayed() {
 		Assert.assertTrue(homePage.IndustryExperienceContainerDisplayed(), "The element is not present");
 	}
 }

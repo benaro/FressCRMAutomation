@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="0" passed="0" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-10T23:52:42Z" name="ParallelExecutionExample" finished-at="2021-11-10T23:52:42Z" duration-ms="5">
+  <suite started-at="2021-11-13T21:17:03Z" name="Default suite" finished-at="2021-11-13T21:17:09Z" duration-ms="5517">
     <groups>
     </groups>
-    <test started-at="2021-11-10T23:52:42Z" name="HomePageUIParallelExecution" finished-at="2021-11-10T23:52:42Z" duration-ms="5">
-    </test> <!-- HomePageUIParallelExecution -->
-  </suite> <!-- ParallelExecutionExample -->
+    <test started-at="2021-11-13T21:17:03Z" name="Default test" finished-at="2021-11-13T21:17:09Z" duration-ms="5517">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method signature="TC01_VerifyLogoisDisplayed()[pri:0, instance:com.crm.qa.testcases.HomePageTest@78e4deb0]" started-at="2021-11-13T15:17:03Z" name="TC01_VerifyLogoisDisplayed" finished-at="2021-11-13T15:17:09Z" duration-ms="5506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_VerifyLogoisDisplayed -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
