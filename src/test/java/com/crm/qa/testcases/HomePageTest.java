@@ -29,7 +29,7 @@ public class HomePageTest extends TestBase {
 	 * 
 	 * @AfterMethod(alwaysRun = true) public void tearDown() { //FormatResult();
 	 * long id = Thread.currentThread().getId();
-	 * System.out.println("After test-class. Thread id is: " + id); tearDownMain();
+	 * System.out.println("After test-class. Thread id is: " + id); tearDownMain();asdsadaasdasd
 	 * }
 	 */
 	
